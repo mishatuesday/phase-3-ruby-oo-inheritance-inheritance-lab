@@ -1,6 +1,8 @@
+#!/usr/bin/env ruby
+
 require 'pry'
-require_relative 'student'
-require_relative 'teacher'
+require_relative '../lib/student'
+require_relative '../lib/teacher'
 
 al = Teacher.new
 judy = Student.new
